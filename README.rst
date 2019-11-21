@@ -31,7 +31,7 @@ Usage
 --------
 This library is provided as a python package::
 
-  pip install git-code-counter
+  pip install git_code_counter
   git-code-counter [repository path]
 
 * Free software: MIT license
