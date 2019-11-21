@@ -14,11 +14,11 @@ import datetime
 
 @click.command()
 @click.argument('url')
-@click.option('--local/--remote', default=False)
-@click.option('--workspace', default='./repo')
-@click.option('--branch', default='master')
-@click.option('--count', default='20')
-@click.option('--lang-limit', default='5')
+@click.option('--local/--remote', default=False, help='Use local if use local repo.')
+@click.option('--workspace', default='./repo', help='Clone in workspace.')
+@click.option('--branch', default='master', help='Branch name.')
+@click.option('--count', default='20', help='Max commit count to iterate.')
+@click.option('--lang-limit', default='5', help='Max language count to show.')
 def main(url, local, workspace, branch, count, lang_limit):
   lang_limit = int(lang_limit)
 

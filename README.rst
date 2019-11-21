@@ -14,18 +14,29 @@ git-code-counter
         :alt: Documentation Status
 
 
-
-
-Python Boilerplate contains all the boilerplate you need to create a Python package.
-
-
-* Free software: MIT license
+.. image:: https://raw.githubusercontent.com/moritanian/git-code-counter/master/result.png
 
 
 Features
 --------
+Show code lines graph
 
-* TODO
+
+Requires
+--------
+* Python3
+* cloc
+
+Usage
+--------
+This library is provided as a python package::
+
+  pip install git-code-counter
+  git-code-counter [repository path]
+
+* Free software: MIT license
+
+
 
 Credits
 -------
